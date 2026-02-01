@@ -12,6 +12,8 @@ A computer vision application that detects human facial emotions in real time us
 - OpenCV
 - Haar Cascade / CNN
 - NumPy
+- Pre-trained CNN model for emotion classification
+
 
 ## 📂 How It Works
 1. Captures video from webcam
