@@ -1,32 +1,40 @@
 # Emotion Detection System
 
-A computer vision application that detects human facial emotions in real time using a webcam.
+A computer vision application that detects and classifies human facial emotions in real time using a webcam.
 
 ## 🚀 Features
-- Real-time face detection
-- Emotion classification (Happy, Sad, Angry, Neutral)
-- Live webcam feed
+- Real-time face detection using Haar Cascade
+- Emotion classification using a pre-trained CNN model
+- Live webcam feed with emotion labels
 
 ## 🛠 Tech Stack
 - Python
 - OpenCV
-- Haar Cascade / CNN
+- TensorFlow / Keras
 - NumPy
-- Pre-trained CNN model for emotion classification
+
+## 📂 Project Structure
+
+emotion-detection-opencv/
+├── emotion_detector.py
+├── emotion_model.h5
+├── haarcascade_frontalface_default.xml
+├── requirements.txt
 
 
-## 📂 How It Works
-1. Captures video from webcam
-2. Detects face regions
-3. Analyzes facial features
-4. Predicts emotion label
+## ⚙️ How It Works
+1. Captures live video from the webcam
+2. Detects faces using Haar Cascade
+3. Extracts facial regions
+4. Predicts emotion using CNN model
+5. Displays emotion label in real time
 
 ## 🎯 Use Cases
-- Human-computer interaction
-- AI demos and exhibitions
-- Academic mini-project
+- AI demonstrations
+- Human–computer interaction projects
+- Academic mini-projects
 
 ## 📚 What I Learned
-- Face detection techniques
 - Real-time image processing
-- Basics of emotion classification
+- Face detection techniques
+- Integrating deep learning models with OpenCV
